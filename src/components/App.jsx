@@ -1,7 +1,7 @@
-import { Profile } from "components/Profile/Profile";
+import Profile from 'components/Profile/Profile';
 import user from '../user.json';
 
-export const App = () => {
+const App = () => {
   return (
     <div
       style={{
@@ -10,17 +10,17 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
-      {/* React homework template */}
       <Profile
-  username={user.username}
-  tag={user.tag}
-  location={user.location}
-  avatar={user.avatar}
-  stats={user.stats}
-/>
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
     </div>
   );
 };
+export default App;
