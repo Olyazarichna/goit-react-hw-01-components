@@ -1,11 +1,19 @@
-ul, li ,p{
+ul, li ,p {
     padding: 0;
     margin: 0;
 }
 
-.profile{
+.profile {
+    width: 600px;
+    margin: 0 auto;
     border: 1px solid #aaa;
     padding: 15px 25px;
+    margin-bottom: 100px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .avatar {
     border:  1px solid rgb(34, 34, 34);
@@ -17,7 +25,7 @@ ul, li ,p{
     justify-content: space-around;
     background-color: #aaa;
 }
-li{
+li {
     display: flex;
     flex-direction: column;  
     justify-content: center;
@@ -25,21 +33,21 @@ li{
     padding: 20px;
 }
 
-.name, .tag, .location{
+.name, .tag, .location {
 text-align: center;
 margin-bottom: 10px;
 font-weight: 500;
 font-size: 40px;
 }
-.name{
+.name {
     font-weight: 900;
     margin-top: 20px;   
 }
-.label{
+.label {
     font-size: 35px;
     font-weight: 700;
 }
-.quantty{
+.quantty {
     font-size: 30px;
     text-align: center;
 }

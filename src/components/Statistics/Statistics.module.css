@@ -1,0 +1,22 @@
+.statistics {
+  border: 1px solid blue;
+  margin: 50px auto 0;
+  width: 700px;
+}
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(33, 33, 249);
+}
+.statList {
+  display: flex;
+  align-items: center;
+}
+.item {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
